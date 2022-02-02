@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{  int a;
+  scanf("%d",&a);
+    int sum=0,g=a+1;
+    while(g--)
+    {
+        sum+=g;
+
+    }
+    printf("%d",sum);
+
+    return 0;
+}
